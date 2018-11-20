@@ -8,7 +8,8 @@ public class Framework {
 	}
 
 	public static void frameworkMethods() {
-		
-		System.out.println("framework created by lead");
+
+		System.out.println("modifed framework method");
+
 	}
 }
