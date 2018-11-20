@@ -8,6 +8,7 @@ public class Framework {
 	}
 
 	public static void frameworkMethods() {
+		
 		System.out.println("framework created by lead");
 	}
 }
