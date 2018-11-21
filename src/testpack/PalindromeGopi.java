@@ -1,3 +1,4 @@
+// Palindrome  1 to 1000 numbers
 package testpack;
 
 public class PalindromeGopi {
@@ -12,14 +13,11 @@ public static void main(String[] args) {
 			a=a/10;
 		}
 		if (j==temp) {
-			System.out.println(j);
+			System.out.println("Palindrome numbers are :" +j);
 		}
-
 		
 	}
-	
-
-		
+			
 }
 
 }
