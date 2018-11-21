@@ -15,12 +15,9 @@ public static void main(String[] args) {
 		if (j==temp) {
 			System.out.println("Palindrome numbers are :" +j);
 		}
-
 		
 	}
-	
-
-		
+			
 }
 
 }
