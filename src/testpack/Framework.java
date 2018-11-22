@@ -88,8 +88,9 @@ public class Framework {
 		  
 	}  
 	  
-          //palindrome program Hari Prasath
-private void palindromehari() {
+// palindrome program Hari Prasath
+
+public void palindromehari() {
 	// TODO Auto-generated method stub
 
 	// Palindrome  1 to 1000 numbers
@@ -106,11 +107,6 @@ private void palindromehari() {
 				System.out.println("Palindrome numbers are :" +j);
 			}
 			
-		}
-	  
-	  
-	  
-}  
-  
-}  
-
+	  }
+}
+}
