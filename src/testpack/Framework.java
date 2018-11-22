@@ -24,4 +24,8 @@ public class Framework {
 		System.out.println("modifed framework method by user1");
 	}
 
+	public void stringPaliTest() {
+		System.out.println("my implementation");
+	}
+
 }
