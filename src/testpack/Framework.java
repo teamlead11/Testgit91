@@ -8,6 +8,7 @@ public class Framework {
 		// TODO Auto-generated method stub
 		frameworkMethodsByuser2();
 		frameworkMethods();
+		PalindromeMeena();
 	}
 
 	public static void frameworkMethodsByuser2() {
@@ -25,7 +26,7 @@ public class Framework {
 	public static void frameworkMethodsByuser1() {
 		System.out.println("modifed framework method by user1");
 	}
-	public void PalindromeMeena() {
+	public static void PalindromeMeena() {
 		String s, rev = "";
 	      Scanner in = new Scanner(System.in);
 	     
@@ -34,12 +35,14 @@ public class Framework {
 	     
 	      int length = s.length();
 	     
-	      for (int i = length - 1; i >= 0; i--)
+	      for (int i = length - 1; i >= 0; i--) {
 	         rev = rev + s.charAt(i);
+	      }
+	      if (s.equals(rev)) {
+	    	  System.out.println("The string is a palindrome.");  
+	      }
 	         
-	      if (s.equals(rev))
-	         System.out.println("The string is a palindrome.");
-	      else
+	      else {
 	         System.out.println("The string isn't a palindrome.");
-	}
+	      }}
 }
