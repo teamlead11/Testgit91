@@ -107,10 +107,6 @@ public void palindromehari() {
 				System.out.println("Palindrome numbers are :" +j);
 			}
 			
-		}
-	  
-	  
-	  
-}  
-
+	  }
+}
 }
