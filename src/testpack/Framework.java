@@ -62,4 +62,33 @@ public class Framework {
 		  else    
 		   System.out.println("not palindrome");    
 		}  
+	  
+	  // Palindrome program Gopi
+	  
+	  private void palindrome() {
+		// TODO Auto-generated method stub
+
+		// Palindrome  1 to 1000 numbers
+		  
+		  for (int k = 1; k <=1000; k++) {
+				int a=k,i=0,j=0,temp=0;
+				temp=a;
+				while (a>0) {
+					i=a%10;
+					j=(j*10)+i;
+					a=a/10;
+				}
+				if (j==temp) {
+					System.out.println("Palindrome numbers are :" +j);
+				}
+				
+			}
+		  
+		  
+		  
+	}  
+	  
+	  
+	  
+	  	  
 		}  
