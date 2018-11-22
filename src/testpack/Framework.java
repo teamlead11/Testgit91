@@ -26,6 +26,8 @@ public class Framework {
 
 	// muthu Palindrome 
 	{
+		
+		
 	int num = 121, reversedInteger = 0, remainder, originalInteger;
 
     originalInteger = num;
@@ -44,6 +46,20 @@ public class Framework {
     else
         System.out.println(originalInteger + " is not a palindrome.");
 }
-	
-	
-}
+	//Shankar Palindrome
+	  {
+		  int r,sum=0,temp;    
+		  int n=454;//It is the number variable to be checked for palindrome  
+		  
+		  temp=n;    
+		  while(n>0){    
+		   r=n%10;  //getting remainder  
+		   sum=(sum*10)+r;    
+		   n=n/10;    
+		  }    
+		  if(temp==sum)    
+		   System.out.println("palindrome number ");    
+		  else    
+		   System.out.println("not palindrome");    
+		}  
+		}  
