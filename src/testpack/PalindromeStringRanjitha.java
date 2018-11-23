@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class PalindromeStringRanjitha {
 	  public static void main(String args[])
 	   {
-	      String original, reverse = ""; // Objects of String class
+	      String original, reverse = ""; 
 	      Scanner ab = new Scanner(System.in);
-	     
+	      
 	      System.out.println("Check entered string is a palindrome or not");
 	      original = ab.nextLine();
 	     
